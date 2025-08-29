@@ -4,265 +4,442 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="WhatsApp_Image_2025-08-22_at_17.45.10_e3f14c07-removebg-preview.png" type="image/jpg">
+    <link rel="shortcut icon" href="assets/service-provider-icon.svg" type="image/svg">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <title>CineVerse - Your Ultimate Movie & Series Companion</title>
+    <title>ITI-MiniProject</title>
 </head>
 <body>
-    <div class="animated-bg"></div>
-    <div class="particles" id="particles"></div>
-
-    <!-- Header -->
     <header>
         <nav>
-            <h1>CineVerse</h1>
-            <div class="links" >
-            <ul class="nav-links" id="list">
-                <li><a href="#Home" onclick="scrollToSection('Home')">Home</a></li>
-                <li><a href="#features" onclick="scrollToSection('features')">Features</a></li>
-                <li><a href="#screenshots" onclick="scrollToSection('screenshots')">Screenshots</a></li>
-                <li><a href="#tech" onclick="scrollToSection('tech')">Tech Stack</a></li>
-                <li><a href="#team" onclick="scrollToSection('team')">Team</a></li>
-                <li><button class="btn"><a href="https://github.com/Moscow-Squad/CineVerse/releases/tag/v1.0.1" target="_blank" download>Download App</a></button></li>
-            </ul>
+            <img src="assets/logo-alt.webp" alt="">
+            <div class="list">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+                <ul class="nav-links">
+                    <li><a href="#Home" class="active">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#price">price</a></li>
+                    <li><a href="#team">team</a></li>
+                    <li><a href="/blog/blog.html" class="blog"><span>blog post</span>blog</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
             </div>
-            <div class="menu-toggle" id="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="Home">
-        <div class="black">
-        <div class="hero-content">
-            <img class="icon" src="assets/WhatsApp_Image_2025-08-22_at_17.45.10_e3f14c07-removebg-preview.png" alt="CineVerse" width="70px" height="70px">
-            <h2>Welcome to CineVerse</h2>
-            <p>Dive into a world of endless entertainment! Explore movies and TV shows, discover your favorite actors, build collections, and enjoy a personalized cinematic journey like never before.</p>
-            <div class="cta-buttons">
-                <button class="btn btn-primary" onclick="window.location.href='https://youtube.com/shorts/H5zF8E8ptrU?feature=share'">
-                    🚀 Demo
-                </button>
-                <a href="https://github.com/Moscow-Squad/CineVerse" class="btn btn-secondary" target="_blank">
-                    📱 View on GitHub
-                </a>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <h2 class="section-title">Amazing Features</h2>
-        <div class="features-grid">
-            <div class="feature-card loading">
-                <div class="feature-icon">🔍</div>
-                <h3>Smart Search</h3>
-                <p>Search for any movie or series with our intelligent search engine. Find exactly what you're looking for instantly.</p>
-            </div>
-            <div class="feature-card loading">
-                <div class="feature-icon">👤</div>
-                <h3>Actor Details</h3>
-                <p>Discover comprehensive information about your favorite stars and explore their complete filmography.</p>
-            </div>
-            <div class="feature-card loading">
-                <div class="feature-icon">⭐</div>
-                <h3>Rate & Review</h3>
-                <p>Share your thoughts! Rate movies and series, write reviews, and help others discover great content.</p>
-            </div>
-            <div class="feature-card loading">
-                <div class="feature-icon">🎯</div>
-                <h3>MCQ Game</h3>
-                <p>Take our interactive quiz to get personalized movie and series recommendations tailored just for you.</p>
-            </div>
-            <div class="feature-card loading">
-                <div class="feature-icon">📂</div>
-                <h3>Custom Collections</h3>
-                <p>Create and manage your own watchlists. Organize your favorite content exactly how you want.</p>
-            </div>
-            <div class="feature-card loading">
-                <div class="feature-icon">🌓</div>
-                <h3>Dark & Light Themes</h3>
-                <p>Choose between beautiful dark and light themes. Perfect viewing experience any time of day.</p>
-            </div>
-            <div class="feature-card loading">
-                <div class="feature-icon">🌐</div>
-                <h3>Multi-language Support</h3>
-                <p>Available in English and Arabic. Enjoy CineVerse in your preferred language.</p>
-            </div>
-            <div class="feature-card loading">
-                <div class="feature-icon">🚫</div>
-                <h3>Content Filter</h3>
-                <p>Advanced content filtering system that automatically blurs inappropriate visuals for a safer experience.</p>
+    <!-- Section Home -->
+    <section class="Home" id="Home">
+        <div class="home-content">
+            <h2>WE ARE CREATIV AGANCY</h2>
+            <p>more be more be more be more be more be more be more be more be more be more be more be</p>
+            <div class="cta-button">
+            <button class="btn btn-primary">Get Started!</button>
+            <button class="btn btn-secondry">Learn More!</button>
             </div>
         </div>
     </section>
 
-    <!-- Screenshots Section -->
-    <section id="screenshots" class="screenshots">
-        <div class="screenshots-container">
-            <h2 class="section-title">App Screenshots</h2>
-        <div class="all-appscreen">
-            <div class="appscreen">
-                <img width="200" src="https://github.com/user-attachments/assets/5120e256-e21f-4577-b719-2baf01e97d09" />
-                <h3>Home Screen</h3>
+    <!-- Section about -->
+    <section class="about" id="about">
+        <h2 class="line">Welcome To Website</h2>
+        <div class="about-content">
+            <div class="cards-about">
+                <div class="about-icon">⚙️</div>
+                <h3>fully customizible</h3>
+                <p>our solutions are designed with flexibility in mind, allowing you to tailor every feature</p>
+                <a href="">read more</a>
             </div>
-            <div class="appscreen">
-                <img width="200" src="https://github.com/user-attachments/assets/5d0e6ec0-872a-4a25-9c6f-1933ea8a5682" />
-                <h3>Explore Screen</h3>
+            <div class="cards-about">
+                <div class="about-icon">🪄</div>
+                <h3>fully customizible</h3>
+                <p>we craft visually engaging design that not only look stunning but also enhance user experience and functionality.</p>
+                <a href="">read more</a>
             </div>
-            <div class="appscreen">
-                <img width="200" alt="image" src="https://github.com/user-attachments/assets/db94c278-7573-4e51-9b32-c8510f30a47a" />
-                <h3>Match Result</h3>
-            </div>
-            <div class="appscreen">
-                <img width="200" src="https://github.com/user-attachments/assets/b853dde0-d05e-4b3b-8a20-7cc688391491" />
-                <h3>Movie/ Series Details</h3>
-            </div>
-        </div>
-            <div class="screenshots-grid" id="screenshotsGrid">
-                <!-- Screenshots will be populated by JavaScript -->
+            <div class="cards-about">
+                <div class="about-icon">📱</div>
+                <h3>fully customizible</h3>
+                <p>our layouts are optimized for all devices, ensuring a seamless and consistent experience across smartphones</p>
+                <a href="">read more</a>
             </div>
         </div>
     </section>
 
-    <!-- Tech Stack Section -->
-    <section id="tech" class="tech-stack">
-        <h2 class="section-title">Built with Modern Tech</h2>
-        <div class="tech-categories">
-            <div class="tech-category">
-                <h3>Core & Architecture</h3>
-                <div class="tech-tags">
-                    <span class="tech-tag">Kotlin</span>
-                    <span class="tech-tag">Coroutines & Flow</span>
-                    <span class="tech-tag">Clean Architecture</span>
-                    <span class="tech-tag">MVVM</span>
-                    <span class="tech-tag">Repository Pattern</span>
+    <!-- Section Feature work -->
+    <section class="feature-work">
+        <h2 class="line">Feature Work</h2>
+        <div class="feature-content">
+            <div class="feature-card">
+                <img src="assets/work/work1.webp" alt="" width="300px">
+                <div class="hover">
+                <h3>Category</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="cta-links">
+                <a href=""><i class='bx bxl-quora'></i></a>
+                <a href=""><i class='bx bxs-bell'></i></a>
+                </div>
                 </div>
             </div>
-            <div class="tech-category">
-                <h3>UI & Design</h3>
-                <div class="tech-tags">
-                    <span class="tech-tag">Jetpack Compose</span>
-                    <span class="tech-tag">Material 3</span>
-                    <span class="tech-tag">Coil 3</span>
+            <div class="feature-card">
+                <img src="assets/work/work2.webp" alt="" width="300px">
+                <div class="hover">
+                <h3>Category</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="cta-links">
+                <a href=""><i class='bx bxl-quora'></i></a>
+                <a href=""><i class='bx bxs-bell'></i></a>
+                </div>
+                </div>  
+            </div>
+            <div class="feature-card">
+                <img src="assets/work/work3.webp" alt="" width="300px">
+                <div class="hover">
+                <h3>Category</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="cta-links">
+                <a href=""><i class='bx bxl-quora'></i></a>
+                <a href=""><i class='bx bxs-bell'></i></a>
+                </div>
                 </div>
             </div>
-            <div class="tech-category">
-                <h3>Jetpack Suite</h3>
-                <div class="tech-tags">
-                    <span class="tech-tag">Paging 3</span>
-                    <span class="tech-tag">WorkManager</span>
-                    <span class="tech-tag">DataStore</span>
-                    <span class="tech-tag">Navigation Component</span>
+            <div class="feature-card">
+                <img src="assets/work/work4.webp" alt="" width="300px">
+                <div class="hover">
+                <h3>Category</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="cta-links">
+                <a href=""><i class='bx bxl-quora'></i></a>
+                <a href=""><i class='bx bxs-bell'></i></a>
+                </div>
                 </div>
             </div>
-            <div class="tech-category">
-                <h3>Networking & Storage</h3>
-                <div class="tech-tags">
-                    <span class="tech-tag">Retrofit</span>
-                    <span class="tech-tag">OkHttp</span>
-                    <span class="tech-tag">Room Database</span>
-                    <span class="tech-tag">Kotlinx.Serialization</span>
+            <div class="feature-card">
+                <img src="assets/work/work5.webp" alt="" width="300px">
+                <div class="hover">
+                <h3>Category</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="cta-links">
+                <a href=""><i class='bx bxl-quora'></i></a>
+                <a href=""><i class='bx bxs-bell'></i></a>
+                </div>
                 </div>
             </div>
-            <div class="tech-category">
-                <h3>Advanced Features</h3>
-                <div class="tech-tags">
-                    <span class="tech-tag">TensorFlow Lite</span>
-                    <span class="tech-tag">Hilt DI</span>
-                    <span class="tech-tag">Firebase Suite</span>
-                    <span class="tech-tag">TMDb API</span>
+            <div class="feature-card">
+                <img src="assets/work/work6.webp" alt="" width="300px">
+                <div class="hover">
+                <h3>Category</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <div class="cta-links">
+                <a href=""><i class='bx bxl-quora'></i></a>
+                <a href=""><i class='bx bxs-bell'></i></a>
+                </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section id="team" class="team">
-        <div class="team-container">
-            <h2 class="section-title">Meet the Moscow Squad</h2>
-            <div class="team-grid">
-                <div class="team-member">
-                    <h4>Ahmed Hosny</h4>
-                    <a href="https://github.com/Ahmed7osny1" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/ahmed-7osny/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+    <!-- Section what we offer -->
+    <section class="offer">
+        <h2 class="line">What We Offer</h2>
+        <div class="offer-container">
+            <div class="offer-card">
+                <div class="text">
+                <i class='bx bxl-sketch'></i><h3>App Development</h3></div>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo</p>
+            </div>
+            <div class="offer-card">
+                <div class="text">
+                <i class='bx bxl-sketch'></i><h3>App Development</h3></div>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo</p>
+            </div>
+            <div class="offer-card">
+                <div class="text">
+                <i class='bx bxl-sketch'></i><h3>App Development</h3></div>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo</p>
+            </div>
+            <div class="offer-card">
+                <div class="text">
+                <i class='bx bxl-sketch'></i><h3>App Development</h3></div>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo</p>
+            </div>
+            <div class="offer-card">
+                <div class="text">
+                <i class='bx bxl-sketch'></i><h3>App Development</h3></div>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo</p>
+            </div>
+            <div class="offer-card">
+                <div class="text">
+                <i class='bx bxl-sketch'></i><h3>App Development</h3></div>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section why choose us -->
+    <section class="choose">
+        <div class="choose-content">
+            <div class="left">
+                <h2>Why Choose Us</h2>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo <br>
+                maecends tempus tells egest codmoutinum rechouns them siper liproo <br>
+                maecends them siper liproo</p>
+                <div class="paragraph">
+                <div class="text">
+                <div class="mark">✔️</div>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo</p>
                 </div>
-                <div class="team-member">
-                    <h4>Shrouk Mohamed</h4>
-                    <a href="https://github.com/ShroukMohamed16" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/shrouk-mohamed-" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                <div class="text">
+                <div class="mark">✔️</div>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo</p>    
                 </div>
-                <div class="team-member">
-                    <h4>Nour elhoda Ahmed</h4>
-                    <a href="https://github.com/nourelhodaahmed" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/nour-el-hoda-ahmed-69479024b/  " target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                <div class="text">
+                <div class="mark">✔️</div>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo</p>
                 </div>
-                <div class="team-member">
-                    <h4>Israa Mohamed</h4>
-                    <a href="https://github.com/israamohamed107" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/israa-mohamed107" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                <div class="text">
+                <div class="mark">✔️</div>
+                <p>maecends tempus tells egest codmoutinum rechouns them siper liproo</p>
                 </div>
-                <div class="team-member">
-                    <h4>Mohamed Omer</h4>
-                    <a href="https://github.com/MohamedOmar989" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/mohamed-omar-2aa8b231b/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+            
+                </div>    
+            <div class="right">
+                <img src="/assets/about/about2.webp" alt="" width="500px" height="300px">
+                <div class="point">
+                <ul>
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
                 </div>
-                <div class="team-member">
-                    <h4>Zyad Abdullah</h4>
-                    <a href="https://github.com/ZeyadAbdullah679" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/zeyadabdullah/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 6 -->
+    <section class="background">
+        <div class="background-content">
+            <div class="background-card">
+                <i class='bx bxs-truck bx-flip-horizontal' ></i>
+                <span>451</span>
+                <p>happy clint</p>
+            </div>
+            <div class="background-card">
+                <i class='bx bxs-truck bx-flip-horizontal' ></i>
+                <span>451</span>
+                <p>happy clint</p>
+            </div>
+            <div class="background-card">
+                <i class='bx bxs-truck bx-flip-horizontal' ></i>
+                <span>451k</span>
+                <p>happy clint</p>
+            </div>
+            <div class="background-card">
+                <i class='bx bxs-truck bx-flip-horizontal' ></i>
+                <span>451</span>
+                <p>happy clint</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section pricing table -->
+    <section class="pricing-table" id="price">
+        <h2 class="line">Pricing Table</h2>
+        <div class="about-content">
+            <div class="pricing-card">
+                <h3>Basic Plan</h3>
+                <div class="circle">
+                    <span>$20</span><small>/MONTH</small>
                 </div>
-                <div class="team-member">
-                    <h4>Farah Maytham</h4>
-                    <a href="https://github.com/Farah-Dev4" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/farah-maytham-ahmed-60b607236/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                <p>1 GB disc space</p>
+                <p>100 email acount</p>
+                <p>24/24support</p>
+                <button class="Btn">Praches Now</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Basic Plan</h3>
+                <div class="circle">
+                    <span>$16</span><small>/MONTH</small>
                 </div>
-                
-                <div class="team-member">
-                    <h4>Adel Tamer</h4>
-                    <a href="https://github.com/AdelTamer35" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/adel-tamer-5b540527b/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                <p>1 GB disc space</p>
+                <p>100 email acount</p>
+                <p>24/24support</p>
+                <button class="Btn">Praches Now</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Basic Plan</h3>
+                <div class="circle">
+                    <span>$</span><small>/MONTH</small>
                 </div>
-                <div class="team-member">
-                    <h4>Eslam Magdy</h4>
-                    <a href="https://github.com/IslamMagd" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/islam-magdy-09b51621a/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                <p>1 GB disc space</p>
+                <p>100 email acount</p>
+                <p>24/24support</p>
+                <button class="Btn">Praches Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- section background 2 -->
+    <section class="background2">
+        <div class="backgound2-content">
+            <div class="backgound2-card">
+                <div class="img">
+                    <img src="assets/Testimonial/perso1.webp" alt="">
+                    <div class="txt">
+                        <h4>johan deoo</h4>
+                        <span>web designer</span>
+                    </div>
                 </div>
-                <div class="team-member">
-                    <h4>Hazem Alkateb</h4>
-                    <a href="https://github.com/hazemka" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/hazem-alkateb/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam magnam iste tempore eos. Inventore placeat nam, laborum quis quas in quisquam! Beatae</p>
+            </div>
+            <div class="backgound2-card">
+                <div class="img">
+                    <img src="assets/Testimonial/perso2.webp" alt="">
+                    <div class="txt">
+                        <h4>johan deoo</h4>
+                        <span>web designer</span>
+                    </div>
                 </div>
-                
-                <div class="team-member">
-                    <h4>Kareem Mohamed</h4>
-                    <a href="https://github.com/kareem-01" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/kareem-esam-264167225/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam magnam iste tempore eos. Inventore placeat nam, laborum quis quas in quisquam! Beatae</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section team -->
+    <section class="team" id="team">
+        <h2 class="line">Our Team</h2>
+        <div class="about-content">
+            <div class="team-card">
+                <img src="assets/team/team1.webp" alt="" width="300px">
+                <div class="links">
+                    <a href=""><i class='bx bxl-google-plus'></i></a>
+                    <a href=""><i class='bx bxl-facebook' ></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
                 </div>
-                <div class="team-member">
-                    <h4>Khaled Eid</h4>
-                    <a href="https://github.com/khaledeid1k" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/khaled-eid-259319102/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                <h4>John Doee</h4>
+                <p>web designer</p>
+            </div>
+            <div class="team-card">
+                <img src="assets/team/team2.webp" alt="" width="300px">
+                <div class="links">
+                    <a href=""><i class='bx bxl-google-plus'></i></a>
+                    <a href=""><i class='bx bxl-facebook' ></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
                 </div>
-                
+                <h4>John Doee</h4>
+                <p>web designer</p>
+            </div>
+            <div class="team-card">
+                <img src="assets/team/team3.webp" alt="" width="300px">
+                <div class="links">
+                    <a href=""><i class='bx bxl-google-plus'></i></a>
+                    <a href=""><i class='bx bxl-facebook' ></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                </div>
+                <h4>John Doee</h4>
+                <p>web designer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section recent news -->
+    <section class="news">
+        <h2 class="line">Recent News</h2>
+        <div class="about-content">
+            <div class="news-card">
+                <img src="assets/blog/blog1.webp" alt="" width="300px">
+                <div class="Icons">
+                    <i class='bx bx-user'></i><span>omar hosny</span>
+                    <i class='bx bx-time-five' ></i><span>18oct</span>
+                    <i class='bx bx-conversation'></i><span>57</span>
+                </div>
+                <h3>software engeenering fuclty is o6u</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolores odit blanditiis architecto aliquid expedita delectus totam officia? Qui, enim.</p>
+                <a href="">Read more</a>
+            </div>
+            <div class="news-card">
+                <img src="assets/blog/blog2.webp" alt="" width="300px">
+                <div class="Icons">
+                    <i class='bx bx-user'></i><span>omar hosny</span>
+                    <i class='bx bx-time-five' ></i><span>18oct</span>
+                    <i class='bx bx-conversation'></i><span>57</span>
+                </div>
+                <h3>software engeenering fuclty is o6u</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolores odit blanditiis architecto aliquid expedita delectus totam officia? Qui, enim.</p>
+                <a href="">Read more</a>
+            </div>
+            <div class="news-card">
+                <img src="assets/blog/blog3.webp" alt="" width="300px">
+                <div class="Icons">
+                    <i class='bx bx-user'></i><span>omar hosny</span>
+                    <i class='bx bx-time-five' ></i><span>18oct</span>
+                    <i class='bx bx-conversation'></i><span>57</span>
+                </div>
+                <h3>software engeenering fuclty is o6u</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolores odit blanditiis architecto aliquid expedita delectus totam officia? Qui, enim.</p>
+                <a href="">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section get in touch -->
+    <section class="contact" id="contact">
+        <h2 class="line">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-icons">
+                <div class="icons-card">
+                    <i class='bx bxs-phone' style='color:#455af2'></i>
+                    <h3>Phone</h3>
+                    <span>02-01223891024</span>
+                </div>
+                <div class="icons-card">
+                    <i class='bx bxs-id-card' style='color:#455af2'></i>
+                    <h3>Address</h3>
+                    <span>Egypt</span>
+                </div>
+                <div class="icons-card">
+                    <i class='bx bxs-map' style='color:#455af2'></i>
+                    <h3>My Location</h3>
+                    <span>Qaliobia - Banha</span>
+                </div>
+            </div>
+            <div class="form">
+                <table>
+                    <form>
+                        <tr>
+                            <td><input type="text" name="Name" id="Name" placeholder="Name"></td>
+                            <td><input type="email" name="Email" id="Email" placeholder="Email"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="text" name="Subject" id="Subject" placeholder="Subject"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><textarea name="Massage" id="Massage" placeholder="Massage"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="submit">Send Massage</button></td>
+                        </tr>
+                    </form>
+                </table>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
+        <img src="assets/logo-alt.webp" alt="">
         <div class="footer-content">
-            <div class="footer-links">
-                <a href="https://github.com/Moscow-Squad/CineVerse" target="_blank">GitHub Repository</a>
-                <a href="#features" onclick="scrollToSection('features')">Features</a>
-                <a href="#tech" onclick="scrollToSection('tech')">Technology</a>
-                <a href="#team" onclick="scrollToSection('team')">Team</a>
-            </div>
-            <p>&copy; 2025 CineVerse by Moscow Squad. Built with ❤️ for movie lovers everywhere.</p>
+            <a href=""><i class='bx bxl-twitter' style='color:#ffffff'  ></i></a>
+            <a href=""><i class='bx bxl-instagram' style='color:#ffffff' ></i></a>
+            <a href=""><i class='bx bxl-google-plus' style='color:#ffffff' ></i></a>
+            <a href=""><i class='bx bxl-facebook' style='color:#ffffff' ></i></a>
+            <a href=""><i class='bx bxl-linkedin-square' style='color:#ffffff' ></i></a>
+            <a href=""><i class='bx bxl-whatsapp' style='color:#ffffff' ></i></a>
+            <a href=""><i class='bx bxl-youtube' style='color:#ffffff' ></i></a>
         </div>
     </footer>
-
-    <script src="main.js"></script>
+</body>
+</html>
