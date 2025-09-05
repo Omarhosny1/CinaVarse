@@ -2,9 +2,9 @@ let img = document.getElementById("img");
 let imgOne = document.getElementById("one");
 let imgTwo = document.getElementById("two");
 let imgThree = document.getElementById("three");
-let srcOne = "/assets/about/about2.webp";
-let srcTwo = "/assets/about/about1.webp";
-let srcThree = "/assets/blog/blog1.webp";
+let srcOne = "assets/about/about2.webp";
+let srcTwo = "assets/about/about1.webp";
+let srcThree = "assets/blog/blog1.webp";
 
 imgOne.addEventListener("click", ()=>{
     img.src = srcOne;
